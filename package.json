@@ -1,0 +1,29 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "preact project",
+  "main": ".eslintrc.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/polyfill": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "babel-preset-preact": "^2.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-eslint": "^6.0.0",
+    "eslint-plugin-react": "^7.18.3",
+    "preact": "^10.3.1",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "eslint": "eslint src/",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "keywords": [
+    "preact"
+  ],
+  "author": "YopiNoji"
+}
